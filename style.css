@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -59,6 +60,7 @@ body {
 .hero-right .title p{
   font-size: 20px;
   letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-right .text{
@@ -225,6 +227,7 @@ body {
 .subtitle {
   color: #aaa;
   letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -341,18 +344,17 @@ body {
 }
 
 .about-heading span{
-  font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
   color: #b8b9be;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 .about-heading h1 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
-  letter-spacing: 3px;
-  color: #b8b9be;
+  color: #d5d6db;
   display: ruby-text;
   font-weight: bold;
 }
@@ -425,26 +427,27 @@ body {
 }
 
 .about-text h2 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 5rem;
-  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
   color: #b8b9be;
   font-weight: bold;
+  letter-spacing: -2px;
 }
 
 .about-text p{
-  color: #b8b9be;
-  font-family: "Bebas Neue", sans-serif;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
 .about-text h3{
   margin-top: 10px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3.5rem;
-  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
   color: #b8b9be;
   font-weight: bold;
+  letter-spacing: -1px;
 }
 
 .skills {
@@ -500,6 +503,7 @@ body {
 
 .about-text .background .education h3{
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 .education ul {
   list-style: none; /* remove default dot */
@@ -563,6 +567,15 @@ body {
     /* grid-template-columns: repeat(2, 1fr); */
     margin-top: 10px;
   }
+  .about-text h2{
+    font-size: 2.5rem;
+  }
+  .about-text h3{
+    font-size: 1.5rem;
+  }
+  .about-text .background .education h3{
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -572,6 +585,7 @@ body {
 .projects {
   padding: 80px 10%;
   background: #050505;
+  display: none;
 }
 
 /* TITLE */
@@ -585,10 +599,10 @@ body {
 
 
 .project-title{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 5rem;
-  letter-spacing: 3px;
-  color: #b8b9be;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0px;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 50px;
   font-weight: bold;
@@ -756,7 +770,7 @@ body {
 
 /* SHOW MOBILE SECTION */
 .projects-mobile {
-  display: none;
+  /* display: none; */
   padding: 40px 20px;
 }
 
@@ -779,7 +793,7 @@ body {
 
 .video-box video {
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
   object-fit: cover;
 }
 
@@ -810,6 +824,12 @@ body {
   }
 }
 
+@media (max-width: 500px){
+  .project-title{
+    font-size: 2.5rem;
+  }
+}
+
 
 /* Thumbnail */
 .thumbnail{
@@ -817,10 +837,9 @@ body {
 }
 
 .thumbnail-title{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 5rem;
-  letter-spacing: 3px;
-  color: #b8b9be;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #cfd0d2;
   text-align: center;
   margin-bottom: 50px;
   font-weight: bold;
@@ -977,6 +996,11 @@ body {
   }
 }
 
+@media (max-width: 500px){
+  .thumbnail-title{
+    font-size: 2.5rem;
+  }
+}
 
 
 /* POSTER WORK */
@@ -985,10 +1009,10 @@ body {
 }
 
 .poster-title{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 5rem;
-  letter-spacing: 3px;
-  color: #b8b9be;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0px;
+  color: #cfd0d2;
   text-align: center;
   margin-bottom: 50px;
   font-weight: bold;
@@ -1113,7 +1137,12 @@ input[type=radio]:checked {
     height: 50vw;
   }
 }
-  
+
+@media (max-width: 500px){
+  .poster-title{
+    font-size: 2.5rem;
+  }
+}
 
 /* CONTACT */
 .contact {
@@ -1129,20 +1158,20 @@ input[type=radio]:checked {
   }
 
   #connect h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 5rem;
-    letter-spacing: 3px;
-    color: #b8b9be;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #cfd0d2;
     text-align: center;
     margin-bottom: 50px;
     font-weight: bold;
   }
 
   #contact h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 5rem;
-    letter-spacing: 3px;
-    color: #b8b9be;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #cfd0d2;
     text-align: center;
     font-weight: bold;
   }
@@ -1152,6 +1181,12 @@ input[type=radio]:checked {
     font-size: 3rem;
     text-align: center;
     line-height: 1;
+  }
+}
+
+@media (max-width: 500px){
+  #connect h2, #contact h2{
+    font-size: 2.5rem;
   }
 }
 
