@@ -585,7 +585,7 @@ body {
 .projects {
   padding: 80px 10%;
   background: #050505;
-  display: none;
+  /* display: none; */
 }
 
 /* TITLE */
@@ -1219,3 +1219,4 @@ footer {
     width: 200px;
   }
 }
+
